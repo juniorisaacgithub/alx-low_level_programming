@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _strspn - Gets the legth of a prefix substring.
+ * _strspn - Gets the length of aprefix substring.
  * @s: The string to be searched.
- * @accept: the prefix to be measured.
+ * @accept: The prefix to be measured.
  *
  * Return: The number of bytes in s which
- * consist of only bytes from accept.
+ * consists of only bytes from accept.
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int bytes = 0;
@@ -31,4 +30,5 @@ unsigned int _strspn(char *s, char *accept)
 		s++;
 	}
 
+	return (bytes);
 }

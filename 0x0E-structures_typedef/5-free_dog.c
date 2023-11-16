@@ -5,9 +5,9 @@
  * free_dog - Frees dogs.
  * @d: tHe dog to be freed.
  */
-void free_dog(dog_t*d)
+void free_dog(dog_t *d)
 {
-	if(d == NULL)
+	if (d == NULL)
 		return;
 
 	free(d->owner);
